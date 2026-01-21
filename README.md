@@ -16,9 +16,14 @@ It focuses on a **reproducible ML pipeline**, leakage-safe evaluation, and metri
 - **Models**: LSTM, GRU, Transformer
 
 ## Results
+**Artifacts:** Full technical report in `report/` and evaluation figures in `assets/`.
+
 The full comparison table is available here:
-- `outputs/tables/model_comparison_dev5000.csv`
-- `outputs/tables/model_comparison_dev5000.json`
+- [model_comparison_dev5000.csv](outputs/tables/model_comparison_dev5000.csv)
+- [model_comparison_dev5000.json](outputs/tables/model_comparison_dev5000.json)
+
+Key metrics include PR-AUC (primary), ROC-AUC, and Precision/Recall/F1 at a selected threshold.
+
 - 
 ## Quick look (figures)
 ### Precision–Recall
