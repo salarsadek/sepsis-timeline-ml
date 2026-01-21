@@ -37,8 +37,8 @@ Key metrics include PR-AUC (primary), ROC-AUC, and Precision/Recall/F1 at a sele
 
 Key metrics include PR-AUC (primary), ROC-AUC, and Precision/Recall/F1 at a selected threshold.
 
-## Reproducibility
-### Setup
+## How to run
+### 1) Install dependencies
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
