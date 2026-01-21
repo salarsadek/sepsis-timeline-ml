@@ -19,6 +19,16 @@ It focuses on a **reproducible ML pipeline**, leakage-safe evaluation, and metri
 The full comparison table is available here:
 - `outputs/tables/model_comparison_dev5000.csv`
 - `outputs/tables/model_comparison_dev5000.json`
+- 
+## Quick look (figures)
+### Precision–Recall
+![PR curve (validation)](assets/summary_dev5000_pr_val.png)
+![PR curve (test)](assets/summary_dev5000_pr_test.png)
+
+### ROC
+![ROC curve (validation)](assets/summary_dev5000_roc_val.png)
+![ROC curve (test)](assets/summary_dev5000_roc_test.png)
+
 
 Key metrics include PR-AUC (primary), ROC-AUC, and Precision/Recall/F1 at a selected threshold.
 
